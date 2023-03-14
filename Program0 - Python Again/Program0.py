@@ -94,21 +94,19 @@ class LinkedList:
     # I used: https://www.geeksforgeeks.org/python-program-for-selection-sort/ 
     # to help me with the basics of the algorithm.
     def selection_sort(self):
-        h = self.head
-        p = h
-        curr = h
+        start = self.head
         for i in range(self.num_nodes):
-            p = h
+            p = start
+            curr = start
             while p.link != None:
                 next = p.link
                 if next.data < curr.data:
                     curr = next
                 p = p.link
-            temp = h.data
-            h.data = curr.data
+            temp = start.data
+            start.data = curr.data
             curr.data = temp
-            h = h.link
-            curr = h
+            start = start.link
 
     # A Function to print all nodes in the linked list.
     def printList(self):
@@ -172,8 +170,12 @@ if __name__ == "__main__":
     try:
         num_nodes = int(num_nodes)
 
+        # If it is an integer but equals 0.
+        if num_nodes == 0:
+            exit(0)
+
         # If it is an integer and negative, convert it to a positive integer.
-        if num_nodes < 0:
+        elif num_nodes < 0:
             num_nodes = num_nodes*(-1)
 
     # If it is not an integer, convert the text to an integer.
