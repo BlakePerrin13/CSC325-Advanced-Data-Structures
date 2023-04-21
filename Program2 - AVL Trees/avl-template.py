@@ -1,3 +1,13 @@
+################################################################################
+# Name: Blake Perrin
+# Date: 04/19/23
+# Description: This program is designed to create a the AVL tree data structure.
+#              The program will take in a list of numbers and then create a tree
+#              from the list. The program will output the original list, the
+#              AVL tree, the in-order traversal of the tree, and the leaves of
+#              the tree.
+################################################################################
+
 import sys
 
 class AVLTree:
