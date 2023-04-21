@@ -18,7 +18,7 @@ This course is an introduction to advanced data structures. The course covers th
 
 The programs are written in python and are run on the command line. The programs are as follows:
 
-### Program0
+### Program0 - Python Again
 
 - [Program 0](Program0%20-%20Python%20Again/): This program is designed to create a linked list with a size specified by the user. The program outputs the original list along with the head and tail data, and then sorts the data using the selection sort. The new head and tail data is then outputted to the user.
 
@@ -28,7 +28,7 @@ The programs are written in python and are run on the command line. The programs
 python3 Program0.py
 ```
 
-### Program1
+### Program1 - Sudoku Puzzle
 
 - [Program 1](Program1%20-%20Sudoku%20Puzzle/): This program is designed to solve a sudoku puzzle by using the rules of the game. The program will take in a matrix of numbers and then use the rules to solve the puzzle. The program will output the original matrix and the matrix after the puzzle has been solved.
 
@@ -38,7 +38,7 @@ python3 Program0.py
 python3 sudoku.py <unsolved_puzzle.txt>
 ```
 
-### Program2
+### Program2 - AVL Trees
 
 - [Program 2](Program2%20-%20AVL%20Trees/): This program is designed to create a the AVL tree data structure. The program will take in a list of numbers and then create a tree from the list. The program will output the original list, the AVL tree, the in-order traversal of the tree, and the leaves of the tree.
 
