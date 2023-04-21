@@ -1,8 +1,12 @@
-# Provide your information as the values of these variables:
-myName = 'Blake, Perrin'
-myTechID = '10382316'
-myTechEmail = 'bep020' #only your email id omit @latech.edu
-###########################################################
+################################################################################
+# Name: Blake Perrin
+# Date: 04/03/23
+# Description: This program is designed to solve a sudoku puzzle by using the
+#              rules of the game. The program will take in a matrix of numbers
+#              and then use the rules to solve the puzzle. The program will
+#              output the original matrix and the matrix after the puzzle has
+#              been solved.
+################################################################################
 
 # Importing libraries and classes needed to run the program.
 import sys
