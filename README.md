@@ -18,4 +18,4 @@ This course is an introduction to advanced data structures. The course covers th
 
 The programs are written in python and are run on the command line. The programs are as follows:
 
-- [Program 0](Programs/Program0 - Python Again/Program0.py): Python Again
+- [Program 0](/Program0.py): This program is a simple program that prints out the name of the user.
